@@ -1,0 +1,60 @@
+.header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: no-repeat center/cover url(../images/cover.jpg);
+    height: 80vh;
+     
+}
+
+.btn-menu{
+    width: 41.6px;
+    height: 44px;
+    background-color: var(--bluem);
+    border: 0;
+
+}
+.container{
+    text-align: center; 
+    margin-top: 278.3px;
+    font-family: "Roboto Slab", serif;        
+    color: var(--white);
+    font-size: 20px;
+    padding-top: 8rem;
+
+    @media all and (min-width: 768px) {
+    font-size: 30px; 
+     
+    }
+    @media all and (min-width: 1024px) {
+        font-size: 50px;    
+    }
+
+}
+
+.subtitle{
+    font-family: "Roboto Slab", serif;
+    color: var(--white);
+    text-align: center;
+    font-weight: 250;
+    font-style: normal;
+    font-size: 16px;
+    margin-top: 10%;
+}
+
+.btn-down{
+    background-color: var(--white);
+    border-radius: 50%;
+    border: 0cap;
+    margin-top: 40%;
+    padding: 25px;
+
+    @media all and (min-width: 768px) {
+     margin-bottom: 15%;   
+         
+    }
+    @media all and (min-width: 1024px) {
+                
+    }
+   
+}

@@ -1,0 +1,103 @@
+.section1{
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+    line-height: 1.5;
+    margin-top: 37px;
+    margin-left: 15px;
+    text-align: left;
+}
+
+.insomnia{
+    color: var(--bluec);
+    font-family: Roboto;
+    font-size: 14px;
+    padding: 10px;
+    
+}
+
+.title-window{
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 24px;
+    padding: 10px;    
+   
+}
+
+.text-window{
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal; 
+    color: var(--griso);
+    padding: 10px;
+}
+
+.btn-go{
+    background-color: var(--white);
+    width: 76px;
+    height: 45px;
+    border-radius: 22.5px;
+    padding: 7px;    
+    margin: 20px;
+    border: solid 3px var(--orange);
+}
+
+.go{
+    text-decoration: none;
+    color: var(--orange);
+    font-size: 20px;
+    
+}
+
+/* TABLET*/
+
+@media all and (min-width: 768px){    
+    .insomnia{
+        margin-left: 30px;
+    }
+    
+    .title-window{
+        padding: 20px;
+        margin-left: 20px;
+        font-size: 30px;
+    }
+    .text-window{
+        padding: 20px;
+        margin-left: 20px;
+        font-size: 20px;
+    }
+    .btn-go{
+        margin-left: 37.8px;
+        width: 91px;
+        height: 45px;
+    }
+}
+
+/* DESKTOP*/
+
+@media all and (min-width: 1024px){
+    .section1{
+        padding: 45px 160px 60px 150px;
+    }
+    .insomnia{
+        margin-left: 40px;
+        font-size: 16px;
+    }
+    .title-window{
+        padding: 20px;
+        font-size: 35px;
+    }    
+    .text-window{
+        padding: 20px;
+        font-size: 20px;
+    }
+    .btn-go{
+        margin-left: 37.8px;
+        width: 160px;
+        height: 45px;
+    }
+
+}
