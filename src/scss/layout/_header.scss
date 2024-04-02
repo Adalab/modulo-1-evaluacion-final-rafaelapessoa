@@ -7,13 +7,18 @@
     height: 100vh;
 }
 
-/*.btn-menu{
+.button-menu{
     width: 41.6px;
     height: 44px;
     background-color: var(--bluem);
     border: 0;
-
-}*/
+    position: fixed;
+    top: 0; 
+    left: 0;
+}
+.burguer{
+    padding: 10px;
+}
 .container{
     display: flex;
     flex-direction: column;
