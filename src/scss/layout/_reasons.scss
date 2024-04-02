@@ -7,15 +7,13 @@
     line-height: 1.5;
     padding: 30px 15px;
     background-color: var(--iceblue);
-
-
 }
 
 .title-reasons{
 
 }
 
-.btn-more{
+.button-more{
     background-color: var(--orange);
     width: 184px;
     height: 45px;
@@ -27,8 +25,16 @@
     margin-top: 41px;
     margin-bottom: 60px;
 }
-.more{
+.button-more:hover{
+    background-color: var(--white);
+    border: solid 3px var(--orange);
+}
+
+.link-button{
     text-decoration: none;
     color: var(--white);
     font-size: 20px;
+}
+.link-button:hover{
+    color: var(--orange);
 }

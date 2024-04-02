@@ -1,4 +1,4 @@
-.section1{
+.section-window{
     display: flex;
     flex-direction: column;
     font-size: 18px;
@@ -12,8 +12,7 @@
     color: var(--bluec);
     font-family: Roboto;
     font-size: 14px;
-    padding: 10px;
-    
+    padding: 10px;  
 }
 
 .title-window{
@@ -22,8 +21,7 @@
     font-weight: 600;
     font-style: normal;
     font-size: 24px;
-    padding: 10px;    
-   
+    padding: 10px;      
 }
 
 .text-window{
@@ -35,7 +33,7 @@
     padding: 10px;
 }
 
-.btn-go{
+.button-go{
     background-color: var(--white);
     width: 76px;
     height: 45px;
@@ -44,13 +42,12 @@
     margin: 20px;
     border: solid 3px var(--orange);
 }
-
-.go{
+.link-go{
     text-decoration: none;
     color: var(--orange);
-    font-size: 20px;
-    
+    font-size: 20px;   
 }
+
 
 /* TABLET*/
 
@@ -58,7 +55,6 @@
     .insomnia{
         margin-left: 30px;
     }
-    
     .title-window{
         padding: 20px;
         margin-left: 20px;
@@ -69,10 +65,16 @@
         margin-left: 20px;
         font-size: 20px;
     }
-    .btn-go{
+    .button-go{
         margin-left: 37.8px;
         width: 91px;
         height: 45px;
+    }
+    .button-go:hover{
+        background-color: var(--orange);
+    }
+    .link-go:hover{
+        color: var(--white);
     }
 }
 
@@ -94,7 +96,7 @@
         padding: 20px;
         font-size: 20px;
     }
-    .btn-go{
+    .button-go{
         margin-left: 37.8px;
         width: 160px;
         height: 45px;
