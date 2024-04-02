@@ -7,32 +7,28 @@
     margin-left: 15px;
     text-align: left;
 }
-
 .insomnia{
     color: var(--bluec);
     font-family: Roboto;
     font-size: 14px;
     padding: 10px;  
 }
-
 .title-window{
     font-family: "Roboto Slab", serif;
     font-optical-sizing: auto;
-    font-weight: 600;
+    font-weight: 700;
     font-style: normal;
     font-size: 24px;
     padding: 10px;      
 }
-
 .text-window{
-    font-family: "Roboto Slab", serif;
+    font-family: "Roboto", sans-serif;
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal; 
     color: var(--griso);
     padding: 10px;
 }
-
 .button-go{
     background-color: var(--white);
     width: 76px;
@@ -70,12 +66,6 @@
         width: 91px;
         height: 45px;
     }
-    .button-go:hover{
-        background-color: var(--orange);
-    }
-    .link-go:hover{
-        color: var(--white);
-    }
 }
 
 /* DESKTOP*/
@@ -102,4 +92,12 @@
         height: 45px;
     }
 
+}
+@media (hover: hover){
+    .button-go:hover {
+        background-color: var(--orange);
+     }
+     .link-go:hover {
+        color: var(--white);
+     }
 }

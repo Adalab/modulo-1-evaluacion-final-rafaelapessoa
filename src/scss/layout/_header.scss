@@ -6,7 +6,6 @@
     background: no-repeat center/cover url(../images/cover.jpg);
     height: 100vh;
 }
-
 .button-menu{
     width: 41.6px;
     height: 44px;
@@ -16,7 +15,7 @@
     top: 0; 
     left: 0;
 }
-.burguer{
+.ico-burguer{
     padding: 10px;
 }
 .container{
@@ -27,7 +26,6 @@
     color: var(--white);
     font-size: 20px;
 }
-
 .subtitle{
     font-family: "Roboto Slab", serif;
     color: var(--white);
@@ -37,16 +35,23 @@
     font-size: 16px;
     margin-top: 10%;
 }
-/*
-.btn-down{
+.button-down{
+    width: 37.9px;
+    height: 37px;
     background-color: var(--white);
     border-radius: 50%;
     border: 0cap;
     margin-top: 40%;
-    padding: 25px;  
+    padding: 15px;  
+    position: absolute;
+    bottom: 10%;
+    left: 50%;
 }
-*/
-
+.ico-down{
+    position: absolute;
+    bottom: 30%;
+    left: 25%;
+}
 
 @media all and (min-width: 768px) {
     .container{
